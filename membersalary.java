@@ -31,7 +31,11 @@ class member {
 
 public class membersalary {
 	public static void main(String[] args) {
-//		member m1 = new member("Christian suhani", 20, "1234567890", "50000");
+		member m1 = new member("S", 20, "1234567890", "gujarat", 50000);
+		member m2 = new member("R", 22, "1234567890", "gujarat", 60000);
+		
+		m1.printsalary();
+		m2.printsalary();
 	}
 
 }
